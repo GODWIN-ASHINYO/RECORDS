@@ -148,7 +148,7 @@ body{
   color: #dbf307;
 }
 .mvpcard{
-  animation: slidein 5s infinite;
+  animation: slidein 5s 2;
 }
 @keyframes slidein{
   0%{transform: translateX(-50%);}
@@ -220,8 +220,8 @@ body{
   100%{transform: translateY(-10px);}
 }
 
-.card:hover{
-  animation: bounce 2s infinite;
+.card{
+  animation: bounce 2s 1;
 }
 
 
