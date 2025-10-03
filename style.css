@@ -148,7 +148,7 @@ body{
   color: #dbf307;
 }
 .mvpcard{
-  animation: slidein 5s 2;
+  animation: slidein 5s ease-out 2;
 }
 @keyframes slidein{
   0%{transform: translateX(-50%);}
@@ -212,7 +212,7 @@ body{
   padding: 5px;
   border-radius: 10px 30px 0px 0px;
   box-shadow: 2px 2px 2px white;
-  animation: bounce 5s infinit;
+  
 } 
 @keyframes bounce {
   0% {transform: translateY(0);}
@@ -221,7 +221,7 @@ body{
 }
 
 .card{
-  animation: bounce 2s 1;
+  animation: bounce 2s ease-in-out 1;
 }
 
 
